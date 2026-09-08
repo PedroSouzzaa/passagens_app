@@ -1,0 +1,17 @@
+name: Checar quedas de preço
+
+# O plano gratuito do Vercel só permite cron 1x por dia. Este workflow chama
+# o mesmo endpoint com mais frequência, direto do GitHub, sem custo.
+on:
+  schedule:
+    - cron: '*/30 * * * *' # a cada 30 minutos
+  workflow_dispatch: {} # permite rodar manualmente pela aba "Actions" do GitHub
+
+jobs:
+  check-prices:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Chamar endpoint de checagem de preços
+        run: |
+          curl -f -X GET "https://SEU-PROJETO.vercel.app/api/cron/check-prices" \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}"
