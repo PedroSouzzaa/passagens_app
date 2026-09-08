@@ -1,0 +1,30 @@
+// Lista de aeroportos disponíveis nos seletores de origem/destino.
+// Adicione mais linhas nesse mesmo formato para expandir a cobertura.
+
+export const AIRPORTS = [
+  { code: 'GRU', city: 'São Paulo', name: 'Guarulhos' },
+  { code: 'CGH', city: 'São Paulo', name: 'Congonhas' },
+  { code: 'GIG', city: 'Rio de Janeiro', name: 'Galeão' },
+  { code: 'SDU', city: 'Rio de Janeiro', name: 'Santos Dumont' },
+  { code: 'BSB', city: 'Brasília', name: 'Brasília' },
+  { code: 'CNF', city: 'Belo Horizonte', name: 'Confins' },
+  { code: 'SSA', city: 'Salvador', name: 'Salvador' },
+  { code: 'REC', city: 'Recife', name: 'Recife' },
+  { code: 'FOR', city: 'Fortaleza', name: 'Fortaleza' },
+  { code: 'BEL', city: 'Belém', name: 'Val de Cans' },
+  { code: 'MAO', city: 'Manaus', name: 'Eduardo Gomes' },
+  { code: 'POA', city: 'Porto Alegre', name: 'Salgado Filho' },
+  { code: 'CWB', city: 'Curitiba', name: 'Afonso Pena' },
+  { code: 'FLN', city: 'Florianópolis', name: 'Hercílio Luz' },
+  { code: 'VCP', city: 'Campinas', name: 'Viracopos' },
+  { code: 'NAT', city: 'Natal', name: 'São Gonçalo do Amarante' },
+  { code: 'MCZ', city: 'Maceió', name: 'Zumbi dos Palmares' },
+  { code: 'MIA', city: 'Miami', name: 'Miami Intl.' },
+  { code: 'JFK', city: 'Nova York', name: 'John F. Kennedy' },
+  { code: 'LIS', city: 'Lisboa', name: 'Humberto Delgado' },
+  { code: 'MAD', city: 'Madri', name: 'Barajas' },
+  { code: 'EZE', city: 'Buenos Aires', name: 'Ezeiza' },
+  { code: 'SCL', city: 'Santiago', name: 'Arturo Merino Benítez' },
+  { code: 'CDG', city: 'Paris', name: 'Charles de Gaulle' },
+  { code: 'LHR', city: 'Londres', name: 'Heathrow' },
+];
